@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+    background-color: aquamarine;
+    
+}
+#tasks{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.content{
+    text-align: center;
+}
+#tasks td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#tasks tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#tasks tr:hover {
+    background-color: #ddd;
+    font-weight: bold;
+}
+#tasks th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+    /* font-weight: bolder; */
+}
+
+.form{
+    margin-top: 30px;
+}
